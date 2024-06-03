@@ -1,3 +1,11 @@
+'''
+This is a Python GUI project. Using WeatherAPI the data is feteched.
+Features:
+---------------------------------------------------------------------------------------------
+1. Show Temp. Hourly.
+2. Show according to cities.
+'''
+import pandas as pd
 import requests
 from geopy.geocoders import Nominatim
 
